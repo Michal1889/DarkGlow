@@ -1,4 +1,5 @@
 
+
 /******************************************** PRE-DEFINED ROOT SETTINGS ********************************************/
 
 :root {
@@ -2017,8 +2018,9 @@ img.emote {
 	margin-left: 15px;
 }
 .cozy-VmLDNB .latin24CompactTimeStamp-2pXUBq {
-	margin-left: -65px;
-	font-size: 11px !important;
+	margin-left: -80px;
+	margin-top: 8px;
+	font-size: 12px !important;
 }
 
 /* CHAT USER AVATAR */
