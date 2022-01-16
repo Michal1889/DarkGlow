@@ -898,8 +898,7 @@
 	width: var(--user-list-width);
 }
 .members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
-	padding: 0px 0px 0px 10px;
-	margin: 0px 0px 0px -12px;
+	padding: 0px 0px 5px 3px;
 }
 .members-3WRCEx .member-2gU6Ar .layout-1qmrhw .children-283-lq {
 	margin-left: 0px;
@@ -907,12 +906,12 @@
 
 /* USER ROLE LIST CATEGORY GROUP LABELS */
 .members-3WRCEx .membersGroup-2eiWxl {
-	padding-top: 10px;
+	padding-top: 0px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: var(--accent-color);
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: 700;
 	text-align: center;
 	transition: all .15s ease-in-out;
@@ -2011,16 +2010,10 @@ img.emote {
 }
 
 /* CHAT HOVER TIME STAMP */
-.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
-	font-size: 11px;
-}
-.cozy-VmLDNB .latin12CompactTimeStamp-2G5XJd {
-	margin-left: 15px;
-}
-.cozy-VmLDNB .latin24CompactTimeStamp-2pXUBq {
-	margin-left: -80px;
-	margin-top: 8px;
-	font-size: 12px !important;
+.timestampVisibleOnHover-9PEuZS {
+	margin-left: -70px;
+	margin-top: 1px;
+	transform: scale(1.2);
 }
 
 /* CHAT USER AVATAR */
