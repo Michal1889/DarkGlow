@@ -1,5 +1,4 @@
 
-
 /******************************************** PRE-DEFINED ROOT SETTINGS ********************************************/
 
 :root {
@@ -1085,6 +1084,16 @@
 
 /******************************************** HORIZONTAL SERVER SETTINGS *********************************/
 
+/* Rainbow User ID */
+.title-338goq {
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    animation: gradient-border 4s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    z-index: 1;
+}
+
 #app-mount .app-3xd6d0 .base-2jDfDU {
 	top: var(--server-container) !important;
 	position: absolute !important;
@@ -1391,6 +1400,11 @@ body.foldercontentopened .base-2jDfDU {
 
 
 /******************************************** TEXT CHAT SETTINGS *********************************/
+
+/* STREAM VISIBILITY */
+.idle-1brB89 {
+	display: var(--stream-visibility);
+}
 
 /* EMOTE FIX */
 img.emote {
@@ -3671,6 +3685,14 @@ img.emote {
 	background: transparent;
 }
 
+/* SETTINGS/DEAFEN/MUTE BUTTONS ANIMATED */
+.button-12Fmur:hover .contents-3ca1mk {
+	animation: UserModalButtons 0.5s normal ease;
+}
+.button-12Fmur {
+	transition: 0.2s;
+}
+
 /* VOICE CONNECTED UI */
 .container-1zzFcN > .flex-3BkGQD {
 	background: rgba(0, 0, 0, 0.3);
@@ -5798,8 +5820,7 @@ img.emote {
 /* TOOLTIPS BLACK */
 .tooltipPrimary-3qLMbS,
 .tooltipBlack-vMYxvw {
-	background-color: var(--accent-color) !important;
-	box-shadow: 0px 1px 5px 1px #000000;
+	background-color: #171717 !important;
 }
 .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb,
 .tooltipBlack-vMYxvw .tooltipPointer-3L49xb {
@@ -5808,7 +5829,7 @@ img.emote {
 
 /* TOOLTIPS BLUE */
 .tooltipBrand-20XsMA {
-	background-color: var(--accent-color) !important;
+	background-color: #171717 !important;
 }
 .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
 	border-top-color: var(--accent-color) !important;
@@ -5816,26 +5837,26 @@ img.emote {
 
 /* TOOLTIPS GREY */
 .tooltipGrey-lpLZjh {
-	background-color: #262626 !important;
+	background-color: #171717 !important;
 }
 .tooltipGrey-lpLZjh .tooltipPointer-3L49xb {
-	border-top-color: #262626 !important;
+	border-top-color: var(--accent-color) !important;
 }
 
 /* TOOLTIPS GREEN */
 .theme-dark .tooltipGreen-oouJdx {
-	background-color: var(--info-positive-foreground);
+	background-color: #171717;
 }
 .theme-dark .tooltipGreen-oouJdx .tooltipPointer-3L49xb {
-	border-top-color: var(--info-positive-foreground);
+	border-top-color: var(--accent-color);
 }
 
 /* TOOLTIPS VOLUME SLIDER */
 .theme-dark .bubble-3we2di {
-	background-color: #262626;
+	background-color: #171717;
 }
 .theme-dark .bubble-3we2di::before {
-	border-top-color: #262626;
+	border-top-color: var(--accent-color);
 }
 
 /* BETA TAG */
@@ -10000,6 +10021,7 @@ body {
     opacity: 0.3;
   }
 }
+
 @keyframes cv-fade-to-3 {
   from {
     opacity: 0;
@@ -10008,6 +10030,7 @@ body {
     opacity: 0.3;
   }
 }
+
 @-webkit-keyframes cv-channel-select {
   from {
     right: 100%;
@@ -10018,6 +10041,7 @@ body {
     background-color: var(--accent-color);
   }
 }
+
 @keyframes cv-channel-select {
   from {
     right: 100%;
@@ -10025,6 +10049,27 @@ body {
   to {
     right: 0;
   }
+}
+
+@keyframes gradient-border {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 0;
+}
+}
+
+@keyframes UserModalButtons {
+	0% {
+	transform: translateY(0px);
+}
+	50% {
+	transform: translateY(-5px);
+}
+    100% {
+	transform: translateY(0px);
+}
 }
 
 /****************************************** END KEYFRAMES ******************************************/
