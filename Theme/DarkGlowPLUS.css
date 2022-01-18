@@ -713,6 +713,10 @@
 	overflow: visible;
 	transition: all .15s ease-in-out;
 }
+/* USER HOVER NICKNAME COLOR */
+.member-2gU6Ar:hover {
+	-webkit-text-fill-color: rgba(255,255,255,0.8);
+}
 .members-3WRCEx .member-2gU6Ar .roleColor-nA7BqX:before {
 	content: "";
 	position: absolute;
