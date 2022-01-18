@@ -885,6 +885,19 @@ img.emote {
     top: 0.25ex;
 }
 
+/* BETTER DISCORD BOTTOM SETTINGS TEXT FIX */
+.colorMuted-HdFt4q,.size12-3cLvbJ {
+	font-size: 12px;  
+	line-height: 16px;
+	color: var(--text-muted);
+}
+.bd-settings-title {
+	font-size: 24px;  
+	line-height: 16px;
+	color: var(--text-muted);
+	text-overflow: ellipsis;
+}
+
 /* DISABLE DISCORD'S OVERCOMPLICATED AND EXTREMELY LAGGY SETTINGS ANIMATIONS FIX */
 .layer-3QrUeG {
     transform: none !important;
