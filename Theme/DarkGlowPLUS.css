@@ -69,11 +69,6 @@
 /******************************************** END PRE-DEFINED ROOT SETTINGS ********************************************/
 
 
-
-
-
-
-
 /******************************************** RADIAL GLOW ROOT SETTINGS ********************************************/
 
 :root {
@@ -95,13 +90,6 @@
 }
 
 /******************************************** END RADIAL GLOW ROOT SETTINGS ********************************************/
-
-
-
-
-
-
-
 
 
 /******************************************** VOICE CHANNEL SETTINGS *********************************/
@@ -646,12 +634,6 @@
 /******************************************** END VOICE CHANNEL SETTINGS *********************************/
 
 
-
-
-
-
-
-
 /******************************************** USER LIST SETTINGS *********************************/
 
 /* USER/MEMBER LIST */
@@ -668,9 +650,6 @@
 }
 .membersWrap-3NUR2t .members-3WRCEx {
 	width: var(--user-list-width);
-}
-.members-3WRCEx .member-2gU6Ar .layout-1qmrhw {
-	padding: 0px 0px 6px 3px;
 }
 .members-3WRCEx .member-2gU6Ar .layout-1qmrhw .children-283-lq {
 	margin-left: 0px;
@@ -713,6 +692,7 @@
 	overflow: visible;
 	transition: all .15s ease-in-out;
 }
+
 /* USER HOVER NICKNAME COLOR */
 .member-2gU6Ar:hover {
 	-webkit-text-fill-color: rgba(255,255,255,0.8);
@@ -724,7 +704,7 @@
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: linear-gradient(to right, rgba(255, 255, 255, 1) 100%, transparent);
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.3) 100%, transparent);
 	border-radius: 3px;
 	opacity: 0;
 	transition: all .15s ease-in-out;
@@ -797,11 +777,11 @@
 
 /* OFFLINE AVATARS BLURRED */
 .members-3WRCEx .member-2gU6Ar.offline-22aM7E .avatar-6qzftW {
-  filter: grayscale(100%) blur(2px);
-  transition: all 0.4s ease-in-out;
+	filter: grayscale(70%) blur(2px);
+	transition: all 0.4s ease-in-out;
 }
 .members-3WRCEx .member-2gU6Ar.offline-22aM7E:hover .avatar-6qzftW {
-  filter: none;
+	filter: none;
 }
 
 /* USER STATUS GAME PLAYING TEXT */
@@ -851,12 +831,6 @@
 }
 
 /******************************************** END USER LIST SETTINGS *********************************/
-
-
-
-
-
-
 
 
 /******************************************** TEXT CHAT SETTINGS *********************************/
@@ -1463,12 +1437,9 @@ img.emote {
 .group-spacing-16 .groupStart-3Mlgv1 {
 	margin-top: 0.6rem; /* 1.0625rem */
 }
-.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
-	margin-top: 1.75rem;
-	margin-bottom: 1.75rem;
-}
-.group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
-	top: 0.25rem;
+.group-spacing-16 .divider-IqmEqJ {
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 /* CHAT MESSAGES/DIVIDER GROUPING 24px */
@@ -1785,7 +1756,7 @@ img.emote {
 .repliedTextPreview-1bvxun {
 	background-color: rgba(15,15,15,0.8);
 	margin-left: 3px;
-	margin-top: 5px;
+	margin-top: 3px;
 	border-left: 4px solid var(--accent-color);
 	border-radius: 4px 4px 4px 4px;
 	padding: 2px 5px 3px 5px;
@@ -2951,12 +2922,6 @@ img.emote {
 /******************************************** END TEXT CHAT SETTINGS *********************************/
 
 
-
-
-
-
-
-
 /******************************************** DM'S SETTINGS *********************************/
 
 /* DM HEADER */
@@ -3098,12 +3063,6 @@ img.emote {
 }
 
 /******************************************** END DM'S SETTINGS *********************************/
-
-
-
-
-
-
 
 
 /******************************************** CHANNEL LIST BOTTOM BAR SETTINGS *********************************/
@@ -3360,11 +3319,6 @@ img.emote {
 }
 
 /******************************************** END CHANNEL LIST BOTTOM BAR SETTINGS *********************************/
-
-
-
-
-
 
 
 /******************************************** TOP BAR (CHANNEL NAME, BUTTONS, SEARCH, ETC) SETTINGS *********************************/
@@ -3974,12 +3928,6 @@ img.emote {
 /******************************************** END TOP BAR (CHANNEL NAME, BUTTONS, SEARCH, ETC) SETTINGS *********************************/
 
 
-
-
-
-
-
-
 /******************************************** THREADS SETTINGS *********************************/
 
 /* CHAT ROLE POPOUT */
@@ -4215,11 +4163,6 @@ img.emote {
 }
 
 /******************************************** END THREADS SETTINGS *********************************/
-
-
-
-
-
 
 
 /******************************************** SERVER LIST SETTINGS ********************************************/
@@ -4517,12 +4460,6 @@ img.emote {
 }
 
 /******************************************** END SERVER LIST SETTINGS ********************************************/
-
-
-
-
-
-
 
 
 /******************************************** FRIENDS SETTINGS *********************************/
@@ -4890,14 +4827,6 @@ img.emote {
 /******************************************** END FRIENDS SETTINGS *********************************/
 
 
-
-
-
-
-
-
-
-
 /******************************************** GIFT INVENTORY SETTINGS *********************************/
 
 .standardSidebarView-E9Pc3j .promotionCard-3bv1Uh,
@@ -4920,12 +4849,6 @@ img.emote {
 }
 
 /******************************************** END GIFT INVENTORY SETTINGS *********************************/
-
-
-
-
-
-
 
 
 /******************************************** APPLICATION STORE SETTINGS *********************************/
@@ -5007,12 +4930,6 @@ img.emote {
 }
 
 /******************************************** END APPLICATION STORE SETTINGS *********************************/
-
-
-
-
-
-
 
 
 /****************************************** SETTINGS ROW ICONS ******************************************/
@@ -5321,12 +5238,6 @@ img.emote {
 }
 
 /****************************************** END SETTINGS ROW ICONS ******************************************/
-
-
-
-
-
-
 
 
 /****************************************** PROFILE MODAL ******************************************/
@@ -5725,12 +5636,6 @@ img.emote {
 }
 
 /****************************************** END PROFILE MODAL ******************************************/
-
-
-
-
-
-
 
 
 /****************************************** PROFILE/USER POPOUT ******************************************/
@@ -6297,15 +6202,9 @@ img.emote {
 /****************************************** END PROFILE/USER POPOUT ******************************************/
 
 
-
-
-
-
-
-
 /****************************************** CUSTOM PROFILE USERBGS ******************************************/
 
-@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css"); /* https://github.com/Discord-Custom-Covers/usrbg */
+@import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
 
 /* USER PROFILE MODAL AVATAR STATUS ONLINE STATUS BORDER */
 .root-8LYsGj .topSection-13QKHs .header-S26rhB [aria-label*="Online"].avatar-3QF_VA,
@@ -6597,13 +6496,6 @@ img.emote {
 }
 
 /****************************************** END CUSTOM PROFILE USERBGS ******************************************/
-
-
-
-
-
-
-
 
 
 /****************************************** KEYFRAMES ******************************************/
