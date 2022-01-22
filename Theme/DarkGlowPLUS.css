@@ -1446,8 +1446,8 @@ img.emote {
 	margin-bottom: 1.2rem;
 }
 .group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
-	margin-bottom: 5px;
-	margin-top: 22px;
+	margin-bottom: 25px;
+	margin-top: 9px;
 }
 
 /* CHAT MESSAGES/DIVIDER GROUPING 24px */
@@ -1489,7 +1489,7 @@ img.emote {
 .timestampVisibleOnHover-9PEuZS {
 	margin-left: -70px;
 	margin-top: 1px;
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 /* CHAT USER AVATAR */
@@ -1524,41 +1524,41 @@ img.emote {
 }
 .topic-11NuQZ .wrapper-1ZcZW-,
 .markup-eYLPri .wrapper-1ZcZW- {
-  background-color: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.04);
+	color: rgba(255, 255, 255, 0.7);
 }
 .topic-11NuQZ .wrapper-1ZcZW-:hover,
 .markup-eYLPri .wrapper-1ZcZW-:hover {
-  background-color: var(--accent-color);
-  color: #fff;
+	background-color: var(--accent-color);
+	color: #fff;
 }
 .topic-11NuQZ strong > .wrapper-1ZcZW-,
 .topic-11NuQZ strong > .mention,
 .markup-eYLPri strong > .wrapper-1ZcZW-,
 .markup-eYLPri strong > .mention {
-  font-weight: 600;
+	font-weight: 600;
 }
 .wrapper-1ZcZW-.iconMention-3WxjBe {
-  padding-left: 1.2rem;
+	padding-left: 1.2rem;
 }
 .mentioned-Tre-dv {
-  background-color: rgba(255, 255, 255, 0.05);
+	background-color: rgba(255, 255, 255, 0.05);
 }
 .mentioned-Tre-dv.message-2CShn3.selected-2LX7Jy {
-  background-color: rgba(255, 255, 255, 0.08);
+	background-color: rgba(255, 255, 255, 0.08);
 }
 .mouse-mode.full-motion .mentioned-Tre-dv:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+	background-color: rgba(255, 255, 255, 0.08);
 }
 .mentioned-Tre-dv::before {
-  background-color: var(--accent-color);
+	background-color: var(--accent-color);
 }
 .theme-dark .mentioned-Tre-dv .wrapper-1ZcZW-.interactive {
-  color: #fff;
+	color: #fff;
 }
 .theme-dark .mentioned-Tre-dv .wrapper-1ZcZW-.interactive:hover {
-  color: #fff;
-  text-decoration: none;
+	color: #fff;
+	text-decoration: none;
 }
 
 /* MESSAGES BACKGROUND OVERLAY */
@@ -4573,7 +4573,7 @@ img.emote {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 9px;
-	margin-right: 10px;
+	margin-right: 13px;
 }
 .peopleList-2VBrVI > div:not(.content-2a4AW9) .peopleListItem-u6dGxF .text-3j8t_e .username-Qpc78p {
 	overflow: visible;
@@ -4602,11 +4602,14 @@ img.emote {
 	width: 24px;
 	display: none;
 }
-.peopleList-2VBrVI > div:not(.content-2a4AW9) .peopleListItem-u6dGxF:hover .actionButton-3-B2x- {
-	display: flex;
+
+/* USERNAME PROPER ALIGN*/
+.nameTag-H6kSJ0 {
+    line-height: 2.3;
 }
-.peopleList-2VBrVI > div:not(.content-2a4AW9) .peopleListItem-u6dGxF .userInfo-3NoxwU {
-	flex: 0 0 210px;
+.discriminator-WV5K5s {
+	line-height: 2.3;
+	margin-left: 5px;
 }
 
 /* FRIEND LIST ADD FRIEND PAGE */
@@ -4831,7 +4834,6 @@ img.emote {
 .uploadModal-2ie9O_ .checked-1pZh2h .checkbox-f1HnKB svg path {
 	fill: #FFFFFF;
 }
-
 /******************************************** END FRIENDS SETTINGS *********************************/
 
 
