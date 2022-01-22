@@ -1441,6 +1441,13 @@ img.emote {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+.group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+}
+.group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
+	top: 0.25rem;
+}
 
 /* CHAT MESSAGES/DIVIDER GROUPING 24px */
 .group-spacing-24 .divider-IqmEqJ.beforeGroup-1BvJAt {
