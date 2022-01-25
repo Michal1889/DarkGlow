@@ -2934,49 +2934,11 @@ img.emote {
 /******************************************** END TEXT CHAT SETTINGS *********************************/
 
 
-/******************************************** DM'S SETTINGS *********************************/
-
-/* DM HEADER */
-.privateChannels-oVe7HL .channel-1Shao0 .linkButtonIcon-7rsZcu {
-	color: #CCCCCC;
-}
-.privateChannels-oVe7HL .channel-1Shao0.clickable-28SzVr:hover .linkButtonIcon-7rsZcu,
-.privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .linkButtonIcon-7rsZcu {
-	color: #E5E5E5;
-}
-.privateChannelsHeaderContainer-1UWASm {
-	display: var(--Home-Direct-Messages-Header);
-	color: #CCCCCC;
-	text-align: center;
-	padding-top: 10px;
-	height: 34px;
-}
-.privateChannelsHeaderContainer-1UWASm .privateChannelRecipientsInviteButtonIcon-1ObKXK {
-	color: #A5A5A5;
-	margin-right: 2px;
-}
-
-/* DM BUTTONS */
-.privateChannels-oVe7HL .channel-1Shao0 {
-	max-width: var(--voice-channel-width);
-}
-.privateChannels-oVe7HL .channel-1Shao0[href="/store"] {
-	display: var(--Home-Store-Button);
-}
-
 /* DM LIST */
 .privateChannels-oVe7HL [class^='scroller'] {
 	background-color: #161616;
-	margin: -8px 0px -8px 0px;
-}
-.privateChannels-oVe7HL [class^='content'] {
-	margin: 0px -6px 0px 1px;
-}
-.privateChannels-oVe7HL .container-1oeRFJ {
-	padding: 0px;
 }
 .privateChannels-oVe7HL .layout-1qmrhw {
-	padding: 4px 0px 2px 5px;
 	border-radius: 0px;
 }
 .privateChannels-oVe7HL .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw {
