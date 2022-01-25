@@ -212,6 +212,8 @@
 	text-shadow: 0 0 3px;
 }
 .listDefault-2F-w65 {
+	padding-top: 5px;
+	gap: 4px;
 	padding-left: 27px;
 }
 
@@ -276,7 +278,7 @@
 	border-bottom-right-radius: 0;
 }
 .voiceUser-3nRK-K .avatarSpeaking-2pCGrZ {
-	box-shadow: 0 0 0 2px var(--accent-color), inset 0 0 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 6px 4px var(--accent-color);
 }
 .voiceUser-3nRK-K .avatarSpeaking-2pCGrZ:after {
 	top: -2px;
