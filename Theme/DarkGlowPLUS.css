@@ -4520,7 +4520,7 @@ img.emote {
 	grid-template-columns: repeat(3, 1fr);
 	display: grid;
 	gap: 8px 8px;
-	margin: 0px 6px 0px 10px;
+	margin: 10px 6px 0px 10px;
 }
 .peopleList-2VBrVI > div:not(.content-2a4AW9) .title-x4dI75 {
 	grid-column: 1/4;
