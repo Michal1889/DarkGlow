@@ -1,5 +1,16 @@
 /****************************************** MAIN DISCORD UI ******************************************/
 
+/* STREAM BUTTONS */
+.selectorButtonSelected-3cQUnj {
+	background-color: var(--accent-color);
+}
+
+/* STREAM BUTTONS HOVER*/
+.theme-dark .item-2OyinQ:hover {
+	background-color: var(--accent-color);	
+	opacity: 0.7;
+}
+
 /* TYPING INDICATOR */
 .wrapper-1VLyxH .mask-1FEkla rect[width="25"] {
 	width: 19px;
