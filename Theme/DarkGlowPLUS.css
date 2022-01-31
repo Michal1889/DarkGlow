@@ -2,6 +2,10 @@
 /******************************************** PRE-DEFINED ROOT SETTINGS ********************************************/
 
 :root {
+	--Stream-Popout-Size: var(--Stream-Popout-Size-Width);					/* Default | var(--Stream-Popout-Size-Width) */
+	--Stream-Popout-Size-Width: calc(var(--stream-popout-size));			/* Default | calc(var(--stream-popout-size)) */
+	--Stream-Popout-Size-Height: calc(var(--stream-popout-size) /1.778);	/* Default | calc(var(--stream-popout-size) /1.778) */
+		
 	--User-Popout-Width: 236px;												/* Default | 236px */	
 	--Search-List-Width: 488px;												/* Default | 488px 			| Discord Default | 418px */
 	--Inbox-List-Width: 522px;												/* Default | 522px 			| Discord Default | 480px */
@@ -851,6 +855,12 @@
 /* STREAM VISIBILITY */
 .idle-1brB89 {
 	display: var(--stream-visibility);
+}
+
+/* STREAM POPOUT SIZE */
+.pictureInPictureVideo-2puO2Q {
+	width: var(--Stream-Popout-Size-Width);
+	height: var(--Stream-Popout-Size-Height);
 }
 
 /* EMOTE FIX */
