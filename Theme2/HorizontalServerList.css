@@ -1,3 +1,9 @@
+:root {
+	--Server-Size: var(--HSL-server-icon-size, var(--HSL-size, 35px));		
+	--Server-Spacing: var(--HSL-server-spacing, var(--HSL-spacing, 10px));	
+	--Server-Container: calc(var(--Server-Size) + 20px);
+}
+
 #app-mount .app-3xd6d0 .base-2jDfDU {
 	top: var(--Server-Container) !important;
 	position: absolute !important;
