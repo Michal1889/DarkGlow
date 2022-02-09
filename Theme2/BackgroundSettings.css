@@ -1,7 +1,7 @@
 :root {
-	--Chat-Transparency: 0.;
-	--Sides-Transparency: 0.2;
-	--Sides-Blur: 5px;
+    --Chat-Transparency: 0.2;
+    --Sides-Transparency: 0.2;
+    --Sides-Blur: 10px;
 	--Background-Blur: 0px;
 }
 .theme-dark {
